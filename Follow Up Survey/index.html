@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Up Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1 id="title" class="title">Folow Up Survey</h1>
+            <p id="description" class="desc">A follow up survey is a customer feedback survey that allows customers to review a company or individual.</p>
+        </header>
+        <hr/>
+        <form id="survey-form">
+        <div class="f-s">
+            <div >
+                <label for="" id="name-label">Name of product or service</label>
+                <input type="text" name="name-label" id="name" required="" placeholder="Enter your name">
+            </div>
+            <div class="f-s2">
+                <label for="" id="date">When did you use our service? </label>
+                <input type="date" name="date" id="name" required="">
+            </div>
+            <div>
+                <label for="" id="email-label">Enter your email?</label>
+                <input type="email" name="email-label" id="email" required="" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="" id="number-label">Enter age</label>
+                <input type="number" name="number-label" id="number" required="" min="12" max="99" placeholder="Enter your age">
+            </div>
+        </div>
+        <div class="f-">
+            <p>Overall, how satisfied are you with the product or service?</p>
+            <div class="f-r">
+                <label for="">
+                    <input type="radio" name="satisffaction" value="Very-satisfied" checked="">Very satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="satisffaction"  value="Satisfied" >Satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="satisffaction" value="Neutral" >Neutral
+                </label>
+                <label for="">
+                    <input type="radio" name="satisffaction" value="Unsatisfied" >Unsatisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="satisffaction" value="Very-unsatisfied" >Very Unsatisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="satisffaction" value="N/A" >N/A
+                </label>
+            </div>
+        </div>
+
+        <div>
+
+            <p>Which is your favorite product?</p>
+            <select for="dropdown" name="" id="dropdown">
+                <option disabled="" value="" selected="">Select an option</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+            </select>
+            
+        </div>
+        
+        <div>
+            <p>How did you hear abou us?</p>
+            <label for="">
+                <input type="checkbox" value="telegram">Telegram
+            </label>
+            <label for="">
+                <input type="checkbox" value="Instagram">Instagram
+            </label>
+            <label for="">
+                <input type="checkbox" value="youtube">Youtube
+            </label>
+        </div>
+        
+        <div class="f-s2">
+            <p>Any comment?</p>
+            <textarea name="" id="" rows="5" cols="40"></textarea>
+        </div>
+
+        <div>
+            <button type="submit" id="submit" > Submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
