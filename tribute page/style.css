@@ -1,0 +1,44 @@
+/* https://assets.editorial.aetnd.com/uploads/2015/03/isaac-newton-gettyimages-56458980.jpg?width=1920&height=960&crop=1920%3A960%2Csmart&quality=75&auto=webp */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Guerrilla&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    font-family: poppins;
+
+
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Pacifico;
+    font-weight: 300;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+    display: block;
+    max-width: 100%;
+  }
+
+.tribute-info{
+    margin: 2% 5%;
+}
+  
